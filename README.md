@@ -2,8 +2,8 @@
 
 This formula is here to install the KittyCAD CLI with Homebrew Taps
 
-run
-```
+to install, run:
+```bash
 brew tap kittycad/kittycad
 brew install kittycad
 ```
