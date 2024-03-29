@@ -1,8 +1,8 @@
 class Kittycad < Formula
   desc " is a command-line interface to Zoo for use in your terminal or your scripts."
   homepage "https://zoo.dev/docs/cli/manual"
-  url "https://dl.zoo.dev/releases/cli/v0.2.32/kittycad-cli.tar.gz"
-  sha256 "a4b906031f81317a2eb6ffc8a559a883b10df6168a5d43cec19740b423b207c4"
+  url "https://dl.zoo.dev/releases/cli/v0.2.36/kittycad-cli.tar.gz"
+  sha256 "cacf05c9f9b11169f4105a6d4b5c840707c330e650b0c0c580d531dd9438afe9"
 
 
   # specify the target architectures for the binary files
