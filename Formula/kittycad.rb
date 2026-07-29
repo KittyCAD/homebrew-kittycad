@@ -1,16 +1,16 @@
 class Kittycad < Formula
   desc " is a command-line interface to Zoo for use in your terminal or your scripts."
   homepage "https://zoo.dev/docs/cli/manual"
-  url "https://dl.zoo.dev/releases/cli/v0.2.184/kittycad-cli.tar.gz"
-  sha256 "e1efe2dac064403d0450257df5265ebeda97943d1c06566904f05b6c5c1b4c76"
+  url "https://dl.zoo.dev/releases/cli/v0.2.185/kittycad-cli.tar.gz"
+  sha256 "d792b9be7ec34086c5fff70f6e59d83aabbce401baaaa33a680f48290023cd24"
 
 
   # specify the target architectures for the binary files
   bottle do
-    sha256 cellar: :any_skip_relocation, x86_64_darwin:  "d10c76037911d38476054f811129300ecaf0db6dc753f0dac4645c44b7e3c47b"
-    sha256 cellar: :any_skip_relocation, aarch64_darwin: "f6d9ac63ebc0e81c57aa37352b36e1d35f3d8426a07541da5f9ae4e6ecdf5043"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "804f5f2c7c9fbc983b8bcd14c7edcb62a1263c2dd523826c8af2c5c84b527095"
-    sha256 cellar: :any_skip_relocation, aarch64_linux:  "93bb8a875039fbf9af66ed503fbe1af887a7eff4df471397319d54315a27b4aa"
+    sha256 cellar: :any_skip_relocation, x86_64_darwin:  "a2d541ea0ff501b1092b706622577fa6e06a376c4a4b584cc0c5d175c0f10af3"
+    sha256 cellar: :any_skip_relocation, aarch64_darwin: "9a8b7df8311b6c39655a934404c7bb020d64497012710079cd4ffa8e474dd5a2"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:   "6811d123301a0274e01ad4c2ced88fbffdf1a70f7cdab9615bb9bceb408b1e20"
+    sha256 cellar: :any_skip_relocation, aarch64_linux:  "18a0e8dcea3f5a89761b28f15d387302f9cd874dab0a40f740a6c2260806d7bc"
   end
 
   def install
